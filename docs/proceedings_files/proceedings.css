@@ -65,26 +65,26 @@
     text-transform: none;
 }
 .paragraph_style_3 {
-    color: rgb(146, 146, 146);
-    font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
-    font-size: 12px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 15px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: 1.00;
-    padding-bottom: 4px;
-    padding-top: 0px;
-    text-align: justify;
-    text-decoration: none;
-    text-indent: 0px;
-    text-transform: none;
+	color: #009966;
+	font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+	font-size: 28px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 29px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	opacity: 1.00;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+	text-transform: none;
 }
 .style {
 	color: #006600;
