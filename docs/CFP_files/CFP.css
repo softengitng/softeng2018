@@ -43,7 +43,7 @@
 	text-transform: none;
 }
 .paragraph_style_2 {
-    color: rgb(146, 146, 146);
+    color: rgb(94, 94, 94);
     font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
     font-size: 12px;
     font-stretch: normal;
@@ -169,7 +169,7 @@
     opacity: 1.00;
 }
 .paragraph_style_7 {
-    color: rgb(146, 146, 146);
+    color: rgb(94, 94, 94);
     font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
     font-size: 12px;
     font-stretch: normal;
@@ -191,7 +191,7 @@
     text-transform: none;
 }
 .paragraph_style_8 {
-    color: rgb(146, 146, 146);
+    color: rgb(94, 94, 94);
     font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
     font-size: 12px;
     font-stretch: normal;
@@ -387,11 +387,11 @@
     opacity: 1.00;
 }
 a {
-	color: #999999;
+	color: rgb(94, 94, 94);
 	text-decoration: none;
 }
 a:visited {
-	color: #999999;
+	color: rgb(94, 94, 94);
 	text-decoration: none;
 }
 a.class1 {
@@ -417,7 +417,7 @@ a.class2:hover {
     text-decoration: underline;
 }
 a:hover {
-	color: #333333;
+	color: #999999;
 	text-decoration: none;
 }
 ol  { 

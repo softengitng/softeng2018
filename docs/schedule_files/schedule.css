@@ -394,11 +394,11 @@ li.full-width {
     width: 100;
 }
 a {
-	color: #999999;
+	color: rgb(94, 94, 94);
 	text-decoration: none;
 }
 a:visited {
-	color: #999999;
+	color: rgb(94, 94, 94);
 	text-decoration: none;
 }
 a.class1 {
@@ -413,6 +413,6 @@ a.class1:hover {
     text-decoration: underline;
 }
 a:hover {
-	color: #333333;
+	color: #999999;
 	text-decoration: none;
 }
