@@ -69,10 +69,16 @@
             font-size: small;
         }
         /*[FIM] Index2.html -------------------------------------------*/
-
-        .subtitulo-footer-primeiro, .important-dates, .important-dates caption {
-            color: #237A23;
+        @media (max-width: 912px) {
+            .submission {
+                position: relative;
+                top: 0px;
+                margin: 5px;
+            }
         }
+            .subtitulo-footer-primeiro, .important-dates, .important-dates caption {
+                color: #237A23;
+            }
     </style>
 </head>
 <body>
@@ -135,11 +141,11 @@
             <div class="row">
                 <h5 class="subtitulo-footer-primeiro" style="text-align:center;">Powered by:</h5>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 footer-organization">
-                    <div class="col-lg-7 col-md-7 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer-organization">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-12 unifacs">
                         <a href="http://www.ppgcomp.unifacs.br" target="_blank"><img src="organization_files/unifacs.jpg" border="0"></a>
                     </div>
-                    <div class="col-lg-5 col-md-4 col-sm-4">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-12 ufs">
                         <a href="http://computacao.ufs.br/" target="_blank"><img src="organization_files/ufs.png" border="0"></a>
                     </div>
                 </div>

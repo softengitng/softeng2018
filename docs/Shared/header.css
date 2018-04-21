@@ -1,5 +1,5 @@
 ﻿body, html {
-    width: 80%;
+    width: 83%;
     height: 50%;
     margin: 0 auto;
     background: rgb(214, 214, 214);
@@ -40,5 +40,22 @@ header, nav {
         margin: 0 auto;
         background: rgb(214, 214, 214);
     }
-
 }
+@media (max-width: 764px) {
+    body, html {
+        width: 95%;
+        height: 60%;
+        margin: 0 auto;
+        background: rgb(214, 214, 214);
+    }
+}
+@media (max-width: 640px) {
+    body, html {
+        width: 100%;
+        height: unset;
+        margin: unset;
+        background: unset;
+    }
+}
+
+

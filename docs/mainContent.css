@@ -24,6 +24,21 @@
         display: inline-grid;
         margin-top: 5px;
     }
+@media (max-width: 576px) {
+    main div.info-presentation {
+        display: inline-grid;
+        padding: 0;
+    }
+
+        main div.info-presentation > div {
+            padding: 0;
+        }
+
+    main .v-separator {
+        border: none;
+        margin: 10px 0;
+    }
+}
 
 
 

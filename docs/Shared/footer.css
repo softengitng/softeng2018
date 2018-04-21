@@ -14,6 +14,10 @@
     footer .footer-organization {
         display: flex;
     }
+        footer .footer-organization .ufs {
+            text-align: center;
+            margin-bottom: 5px;
+        }
 
     footer .footer-copyright {
         text-align: center;
@@ -39,3 +43,100 @@
         text-align: center;
         background-color: rgb(214, 214, 214);
     }
+
+@media (max-width: 911px) {
+    /*footer .footer-organization {
+        display: inline-grid;
+        padding: 0;
+        text-align: -webkit-center;
+    }*/
+
+        footer .footer-organization .unifacs {
+            width: 310px;
+            height: 95px;
+            margin: 0;
+            padding: 0;
+        }
+
+            footer .footer-organization .unifacs img {
+                width: 310px;
+                height: 95px;
+            }
+
+    footer .flag-counter img {
+        width: 310px;
+        height: 95px;
+    }
+}
+@media (max-width: 768px) {
+    footer .footer-organization {
+        display: inline-flex;
+        padding: 0;
+        text-align: -webkit-center;
+    }
+
+        footer .footer-organization .unifacs {
+            width: 310px;
+            height: 95px;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer .footer-organization .ufs {
+            width: 310px;
+            height: 95px;
+            margin: 0 0 10px 0;
+            padding: 0;
+        }
+
+        footer .footer-organization .unifacs img {
+            width: 310px;
+            height: 95px;
+        }
+
+    footer .flag-counter img {
+        width: 310px;
+        height: 95px;
+    }
+}
+@media (max-width: 576px) {
+    footer .footer-organization {
+        display: inline-grid;
+    }
+        footer .footer-organization .unifacs {
+            width: 310px;
+            height: 95px;
+            margin: 0;
+            padding: 0;
+        }
+        footer .footer-organization .ufs {
+            width: 310px;
+            height: 95px;
+            margin: 0 0 10px 0;
+            padding: 0;
+        }
+
+        footer .footer-organization .unifacs img {
+            width: 310px;
+            height: 95px;
+        }
+    footer .bumper {
+    
+    }
+
+    footer p.report-bugs {
+        font-size: xx-small;
+    }
+    footer .flag-counter img {
+        width: 100%;
+        height: 95px;
+    }
+    footer p.flag-counter {
+        padding-top: -5px;
+        margin: 0;
+        margin-top: -15px;
+        -webkit-margin-after: 0;
+    }
+        
+}
+
