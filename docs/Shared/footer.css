@@ -1,0 +1,41 @@
+﻿footer {
+    margin: 0 auto;
+    text-align: center;
+    align-items: baseline;
+    height: unset !important;
+    background-color: #fff;
+    border-top: 5px solid #009966;
+}
+
+    footer .subtitulo-footer-primeiro {
+        width: 100%;
+    }
+
+    footer .footer-organization {
+        display: flex;
+    }
+
+    footer .footer-copyright {
+        text-align: center;
+        color: #000;
+        border-top: 1px solid #24525f;
+        position: relative;
+        top: 8px;
+        clear: both;
+        width: 100%;
+    }
+    footer .subtitulo-footer-primeiro {
+        color: #237A23;
+    }
+    footer .bumper {
+        background-color: rgb(214, 214, 214);
+    }
+    footer p.report-bugs {
+        opacity: 0.3;
+        border-color: rgb(214, 214, 214);
+        margin-bottom: 0;
+    }
+    footer .flag-counter {
+        text-align: center;
+        background-color: rgb(214, 214, 214);
+    }

@@ -1,0 +1,30 @@
+﻿main {
+    background-color: #fff;
+    min-height: 570px;
+}
+    main .v-separator {
+        border-left: 1px solid #237A23;
+    }
+
+    main h4.section-title {
+        color: #237A23;
+        text-align: left;
+    }
+    main div.page-title>h3 {
+        color: #237A23;
+        text-align: center;
+        width: 100%;
+        padding-top: 5px;
+    }
+    main div.info-presentation {
+        display: inline-flex;
+        margin-top: 5px;
+    }
+    main div.info-presentation.organization {
+        display: inline-grid;
+        margin-top: 5px;
+    }
+
+
+
+

@@ -1,0 +1,44 @@
+﻿body, html {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    background: rgb(214, 214, 214);
+}
+
+body {
+    display: block;
+    box-sizing: content-box;
+    /*margin-left: auto;*/
+    text-align: center;
+}
+
+header, nav {
+    display: inline;
+    /*height: 50px;
+    width: 100%;*/
+    top: 0;
+}
+
+    nav .nav-brand {
+        margin: 5px 5px;
+    }
+
+    header .track-bumper {
+        background-image: linear-gradient(135deg, #009966, #9CC258);
+        color: #fff;
+        height: 30px;
+        font-size: large;
+        font-weight: 600;
+        border-radius: 5px;
+
+    }
+
+@media (max-width: 912px){
+    body, html {
+        width: 90%;
+        height: 60%;
+        margin: 0 auto;
+        background: rgb(214, 214, 214);
+    }
+
+}
