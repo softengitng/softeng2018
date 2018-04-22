@@ -20,10 +20,6 @@
         display: inline-flex;
         margin-top: 5px;
     }
-    main div.info-presentation.organization {
-        display: inline-grid;
-        margin-top: 5px;
-    }
 @media (max-width: 576px) {
     main div.info-presentation {
         display: inline-grid;
